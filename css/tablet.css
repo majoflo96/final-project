@@ -1,0 +1,14 @@
+/* TABLET
+    tablet devices (under 1200px;)
+*/
+
+@media only screen and (max-width: 1200px) {
+
+    body {
+        padding: 40px;
+    }
+
+    .travel-info.column {
+        flex-direction: column;
+    }
+}

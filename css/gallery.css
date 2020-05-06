@@ -1,0 +1,69 @@
+/* Stylesheet made by Maria Jose Flores :) */
+
+.column {
+  flex-direction: column;
+}
+
+.column:nth-child(2) {
+  margin: 0 20px;
+}
+
+.photos {
+  flex-direction: row;
+}
+
+.photo {
+  margin-bottom: 10px;
+}
+
+.photo:last-child {
+  margin: 0;
+}
+
+
+/* TRAVELING */
+.travel-intro {
+    margin-bottom:40px;
+    max-width: 80%;
+}
+
+.travel {
+    margin: -10px;
+}
+
+.travel-block {
+    padding: 20px;
+}
+
+.travel-info.column {
+    flex-direction: row;
+    border:1px solid #ddd;
+    margin: 10px;
+}
+
+.travel-text {
+    line-height: 28px;
+    padding-bottom: 20px;
+}
+
+.travel-text h2 {
+    margin-bottom: 10px;
+}
+
+.travel-pic {
+    margin: 20px 0 20px 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px;
+    flex: none;
+}
+
+.t-pic-01 { background-image: url('../images/traveling/01.jpg') }
+.t-pic-02 { background-image: url('../images/traveling/02.jpg') }
+.t-pic-03 { background-image: url('../images/traveling/03.jpg') }
+.t-pic-04 { background-image: url('../images/traveling/04.jpg') }
+.t-pic-05 { background-image: url('../images/traveling/05.jpg') }
+.t-pic-06 { background-image: url('../images/traveling/06.jpg') }
+.t-pic-07 { background-image: url('../images/traveling/07.jpg') }
+.t-pic-08 { background-image: url('../images/traveling/08.jpg') }

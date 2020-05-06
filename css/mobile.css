@@ -1,0 +1,60 @@
+/* Stylesheet made by Maria Jose Flores */
+
+/*
+    I want to explain why I didn't make a desktop media query.
+    The styling is based on the desktop version, that way I only have to style additional styling for mobile and tablet.
+    If the reason you wanted us to add a desktop media query is to see if we could then I can show you how I would:
+
+    @media only screen and (min-width: 768px) {
+        here goes the styling for desktop only
+    }
+*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    body {
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+    }
+
+    /* MAIN CONTENT */
+    .wrapper {
+        flex-direction: column;
+        margin: 0;
+        padding: 0 20px;
+    }
+
+    .columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name {
+        margin-bottom: 20px;
+    }
+
+
+/* TRAVELING PAGE */
+    .travel-info.column {
+        flex-direction: column;
+    }
+
+    .travel-intro {
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+
+    .travel-pic {
+        margin: 20px 20px 0 20px;
+        width: auto;
+        background-size: cover;
+    }
+
+
+}
